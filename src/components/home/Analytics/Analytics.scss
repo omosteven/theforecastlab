@@ -1,0 +1,23 @@
+.analytics-chart {
+  padding: 20px;
+  background: transparent;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-chart h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+tspan {
+  color: white !important;
+  //   stroke: white !important;
+  fill: white !important;
+}
+
+.recharts-responsive-container{
+    background: transparent !important;
+}

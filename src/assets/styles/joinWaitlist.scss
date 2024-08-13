@@ -1,0 +1,36 @@
+.joinWaitlist {
+  width: 20rem !important;
+  height: fit-content;
+
+  p {
+    font-size: 14px;
+    // margin-bottom: 0;
+  }
+  h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  button {
+    margin-left: calc(50% - 70px);
+    margin-right: auto;
+    margin-top: 16px;
+    width: 140px;
+  }
+
+  &__input {
+    label {
+      display: block;
+      margin-bottom: 4px;
+      margin-top: 4px;
+      font-size: 16px;
+    }
+    input {
+      width: 100%;
+      outline: none;
+      border: 1px solid #0270d7;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+}

@@ -1,0 +1,172 @@
+@keyframes slide-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Animation for moving left to right and slightly up */
+@keyframes moveLeftRightUp {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(20px, -10px);
+  }
+  50% {
+    transform: translate(40px, 0);
+  }
+  75% {
+    transform: translate(20px, -10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Animation for bouncing up and down */
+@keyframes bounceUpDown {
+  0%,
+  100% {
+    transform: translateY(0) !important;
+  }
+  50% {
+    transform: translateY(-10px) !important;
+  }
+}
+
+.animated-image {
+  width: 100%;
+  height: auto;
+  animation: moveLeftRightUp 3s ease-in-out infinite,
+    bounceUpDown 1.5s ease-in-out infinite !important;
+}
+
+.animated-text {
+  display: flex;
+  font-size: 2em;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.animated-text span {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.animated-text span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.animated-text span:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.animated-text span:nth-child(3) {
+  animation-delay: 2s;
+}
+
+.animated-text span:nth-child(4) {
+  animation-delay: 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.roadmap {
+  &__horizontal {
+    border-top: 3px dashed white;
+    width: 100px;
+    height: 10px;
+    border-radius: 40px;
+  }
+
+  &__vertical {
+    border-left: 3px dashed white;
+    width: 10px;
+    height: 100px;
+    border-radius: 40px;
+    &.right {
+      border-right: 3px dashed white;
+      border-left: none;
+      margin-left: 90px;
+    }
+  }
+
+  &__map {
+    display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+
+    overflow: scroll;
+
+    width: 100%;
+
+    // Prevent flex items from shrinking
+    flex-wrap: nowrap;
+    overflow-x: auto; // Enable horizontal scrolling if content exceeds the container width
+    overflow-y: hidden; // Optional: Hide vertical scrolling if not needed
+
+    width: 100%;
+
+    // animation: slide-left 15s linear infinite;
+  }
+
+  &__circle {
+    flex: 0 0 auto;
+
+    border: 3px dashed white;
+
+    width: 120px;
+
+    height: 120px;
+
+    border-radius: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 16px;
+
+    &.active {
+      border-color: #0270d7;
+    }
+    p {
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    b {
+      font-size: 12px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: white;
+    }
+  }
+
+  &__circle-joint {
+    border: 2px dashed white;
+    width: 50px;
+    height: 2px;
+    flex: 0 0 auto;
+    &.active {
+      border-color: #0270d7;
+    }
+  }
+}
