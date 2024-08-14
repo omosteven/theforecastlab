@@ -6,6 +6,7 @@ import RoadMap from "./RoadMap/RoadMap";
 import OurTechnologies from "./OurTechnologies/OurTechnologies";
 // import Analytics from "./Analytics/Analytics";
 import Briefcase from "./Briefcase/Briefcase";
+import ERP from "./ERP/ERP";
 
 // roadmap, how it works, analytics graph, our vision andmission
 const HomeBody = () => {
@@ -27,7 +28,7 @@ const HomeBody = () => {
               </p>
               <div className="hero-cta">
                 <span className="button button-secondary" onClick={toggleModal}>
-                  Join Waitlist
+                  Join Our 2k+ Waitlists
                 </span>
               </div>
             </div>
@@ -61,7 +62,6 @@ const HomeBody = () => {
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="600"
               >
-                
                 <div className="feature-inner">
                   <div className="feature-icon">
                     <img src={assets.images.feat1} alt="Feature 01" />
@@ -149,13 +149,14 @@ const HomeBody = () => {
                     <img src={assets.images.feat5} alt="Feature 05" />
                   </div>
                   <h4 className="feature-title mt-24">
-                    Data Privacy Guaranteed
+                    Data Privacy/Security Guaranteed
                   </h4>
                   <p className="text-sm mb-0">
-                    Worried about your business data privacy? Our solution is
-                    built on the principles of Responsible and Trustworthy AI by
-                    ensuring data privacy and integrity through decentralized
-                    data sharing and blockchain technology.
+                    Worried about your business data privacy and security? Our
+                    solution is built on the principles of Responsible and
+                    Trustworthy AI by ensuring data privacy and security and
+                    integrity through decentralized data sharing and blockchain
+                    technology.
                   </p>
                 </div>
               </div>
@@ -164,6 +165,7 @@ const HomeBody = () => {
           </div>
         </div>
       </section>
+      <ERP />
 
       <OurTechnologies />
 

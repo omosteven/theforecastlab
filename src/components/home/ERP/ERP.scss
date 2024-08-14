@@ -1,0 +1,96 @@
+.erp-circle {
+  position: relative;
+  width: 460px; /* Adjust size as needed */
+  height: 460px;
+  margin: 50px auto; /* Center the circle on the page */
+
+  .erp-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    border: 1px solid #0270d7;
+    background-color: transparent; /* Example color */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  }
+
+  .erp-component {
+    position: absolute;
+    width: 140px;
+    padding: 5px;
+    height: 140px;
+    background-color: #2c3039; /* Example color for components */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    animation: rotate 10s linear infinite;
+    &:nth-child(2) {
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      animation-delay: 0s;
+    }
+    &:nth-child(3) {
+      top: 50%;
+      left: 100%;
+      transform: translateY(-50%) translateX(-100%);
+      animation-delay: 2.5s;
+    }
+    &:nth-child(4) {
+      top: 100%;
+      left: 50%;
+      transform: translateY(-100%) translateX(-50%);
+      animation-delay: 5s;
+    }
+    &:nth-child(5) {
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      animation-delay: 7.5s;
+    }
+  }
+}
+
+@keyframes rotate {
+    0% {
+    //   transform: rotate(0deg) translateX(-50%) translateY(-50%);
+    }
+    100% {
+    //   transform: rotate(360deg) translateX(-50%) translateY(-50%);
+    }
+  }
+  
+@media (max-width: 480px) {
+  .erp-circle {
+    width: 350px;
+    height: 350px;
+
+    .erp-center {
+      width: 100px;
+      height: 100px;
+      font-size: 12.5px;
+    }
+
+    .erp-component {
+      width: 120px;
+      height: 120px;
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+}
