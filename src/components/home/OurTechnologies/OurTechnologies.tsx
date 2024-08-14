@@ -112,7 +112,7 @@ const OurTechnologies = () => {
                       className="technology-card__icon"
                     />
                     <h3 className="technology-card__name">
-                      Efficient GPU Service
+                      Efficient GPU Server
                     </h3>
                   </div>
                   <div className="technology-card__back">

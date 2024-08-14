@@ -39,7 +39,7 @@ const RoadMap = () => {
             </div>
             <div className="roadmap__circle-joint"></div>
             <div className="roadmap__circle">
-              <p>Q2 2024</p>
+              <p>Q2 2025</p>
               <b>Development</b>
             </div>
             <div className="roadmap__circle-joint"></div>

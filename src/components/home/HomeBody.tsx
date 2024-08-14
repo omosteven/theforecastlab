@@ -4,7 +4,8 @@ import JoinWaitlist from "./JoinWaitlist";
 import PricingModel from "./PricingModel/PricingModel";
 import RoadMap from "./RoadMap/RoadMap";
 import OurTechnologies from "./OurTechnologies/OurTechnologies";
-import Analytics from "./Analytics/Analytics";
+// import Analytics from "./Analytics/Analytics";
+import Briefcase from "./Briefcase/Briefcase";
 
 // roadmap, how it works, analytics graph, our vision andmission
 const HomeBody = () => {
@@ -17,7 +18,9 @@ const HomeBody = () => {
         <div className="container">
           <div className="hero-inner">
             <div className="hero-copy">
-              <h1 className="hero-title mt-0 animated-text">AI For Demand Forecasting!</h1>
+              <h1 className="hero-title mt-0 animated-text">
+                AI For Demand Forecasting!
+              </h1>
               <p className="hero-paragraph">
                 Improve your business supply chain efficiency through our
                 AI-powered demand forecasting solution
@@ -35,17 +38,20 @@ const HomeBody = () => {
         </div>
       </section>
 
+      <Briefcase />
+
       <section
         className="features section "
         data-aos="fade-zoom-in"
         data-aos-offset="200"
         data-aos-easing="ease-in-sine"
         data-aos-duration="600"
+        style={{ marginTop: "-60px" }}
       >
         <div className="container">
           <div className="features-inner section-inner has-bottom-divider">
             <div className="pricing-header text-center">
-              <h2 className="section-title mt-0">Features Of Our Solution</h2>
+              <h2 className="section-title mt-0">Our Solution</h2>
             </div>
             <div className="features-wrap">
               <div
@@ -55,6 +61,7 @@ const HomeBody = () => {
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="600"
               >
+                
                 <div className="feature-inner">
                   <div className="feature-icon">
                     <img src={assets.images.feat1} alt="Feature 01" />
@@ -153,7 +160,7 @@ const HomeBody = () => {
                 </div>
               </div>
             </div>
-            <Analytics />
+            {/* <Analytics /> */}
           </div>
         </div>
       </section>

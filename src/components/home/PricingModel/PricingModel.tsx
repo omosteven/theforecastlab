@@ -7,12 +7,30 @@ const PricingModel = () => {
   const pricingModels = [
     {
       title: "Basic",
+      type: "FREMIUM",
+      features: ["Analytics", "Predictions"],
     },
     {
       title: "Premium",
+      type: "PREMIUM",
+      features: [
+        "All Basic",
+        "Real Time Analytics",
+        "Geographical Tailored",
+        "Industry Tailored",
+        "Unlimited Demand History Data",
+        "Data Sharing",
+      ],
     },
     {
       title: "Fully Customized",
+      type: "CUSTOMIZED",
+      features: [
+        "All Premium",
+        "Dedicated Forecast System",
+        "Private Data",
+        "System Integration",
+      ],
     },
   ];
 

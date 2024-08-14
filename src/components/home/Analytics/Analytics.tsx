@@ -28,14 +28,14 @@ const logisticsData = [
 const Analytics = () => {
   return (
     <section
-      className="pricing section ourtechnologies"
+      className="pricings sections ourtechnologies"
       data-aos="fade-zoom-in"
       data-aos-offset="200"
       data-aos-easing="ease-in-sine"
       data-aos-duration="600"
     >
-      <div className="container-sm">
-        <div className="pricing-inner section-inner ">
+      <div className="container-sms">
+        <div className="pricing-innesr section-insner ">
           <div className="analytics-chart">
             {/* <h2>Supply Chain Logistics Analytics</h2> */}
             <ResponsiveContainer width="100%" height={400}>
@@ -43,8 +43,8 @@ const Analytics = () => {
                 data={logisticsData}
                 margin={{
                   top: 20,
-                  right: 30,
-                  left: 20,
+                  right: 0,
+                  left: 0,
                   bottom: 5,
                 }}
               >
