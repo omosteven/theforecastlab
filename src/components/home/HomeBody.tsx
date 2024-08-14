@@ -23,7 +23,7 @@ const HomeBody = () => {
               </h1>
               <p className="hero-paragraph">
                 Improve your business supply chain efficiency through our
-                AI-powered demand forecasting solution
+                AI-powered demand and profit forecasting solution
               </p>
               <div className="hero-cta">
                 <span className="button button-secondary" onClick={toggleModal}>
@@ -71,7 +71,7 @@ const HomeBody = () => {
                     Our AI models are customized for your business based on the
                     specific industry and geographical operating regions of your
                     business, thus enhancing its efficiency and accuracy in
-                    demand forecasting.
+                    demand and profit forecasting.
                   </p>
                 </div>
               </div>
