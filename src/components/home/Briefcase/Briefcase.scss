@@ -97,14 +97,24 @@
     .root-node {
       .branch {
         flex-wrap: wrap;
-
+        width: 100%;
+        .child-node {
+          width: 100%;
+        }
+        .node-content {
+          width: 100%;
+          h3 {
+            font-size: 16px !important;
+          }
+        }
         .tree-node {
-        //   width: 50%;
-        //   width: 100%;
+          // width: 50%;
+          width: 100%;
           box-sizing: border-box;
-
           &:nth-child(odd)::after {
             width: 50%;
+
+            width: 100%;
           }
 
           &:nth-child(even)::after {
@@ -116,7 +126,7 @@
           }
 
           &:nth-child(even)::before {
-            left: 0;
+            left: 50%;
           }
         }
       }

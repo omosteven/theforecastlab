@@ -20,7 +20,7 @@ const HomeBody = () => {
           <div className="hero-inner">
             <div className="hero-copy">
               <h1 className="hero-title mt-0 animated-text">
-                AI For Demand Forecasting!
+                AI For Profit & Demand Forecasting!
               </h1>
               <p className="hero-paragraph">
                 Improve your business supply chain efficiency through our
@@ -130,10 +130,9 @@ const HomeBody = () => {
                     Integration Made Easy.
                   </h4>
                   <p className="text-sm mb-0">
-                    Businesses can integrate our platform into their existing
-                    systems using Application Programming Interfaces (APIs).
-                    With this APIs, a smooth and efficient connection with
-                    current business operations is ensured
+                    Businesses can seamlessly integrate our platform with their
+                    existing systems using our APIs, ensuring a smooth
+                    connection and efficient business operations.
                   </p>
                 </div>
               </div>
@@ -152,11 +151,11 @@ const HomeBody = () => {
                     Data Privacy/Security Guaranteed
                   </h4>
                   <p className="text-sm mb-0">
-                    Worried about your business data privacy and security? Our
-                    solution is built on the principles of Responsible and
-                    Trustworthy AI by ensuring data privacy and security and
-                    integrity through decentralized data sharing and blockchain
-                    technology.
+                    Protect your business data with our secure solution, built
+                    on Responsible AI principles. We ensure, Data privacy and
+                    compliance, Decentralized data sharing, Blockchain security,
+                    Integrity and legal liability. Trust us to safeguard your
+                    business data.
                   </p>
                 </div>
               </div>
