@@ -1613,7 +1613,7 @@ main {
   width: 100%;
   display: inline-flex;
   justify-content: center;
-  gap:5px;
+  gap: 5px;
 }
 .footer-brand,
 .footer-links,
@@ -1664,6 +1664,10 @@ main {
 .brand-name {
   font-size: 14px;
   font-weight: 600 !important;
+}
+
+.brand-name__header {
+  font-size: 20px !important;
 }
 .brand-name__first {
   color: #0270d7;

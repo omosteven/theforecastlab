@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="site-footer-inner">
           <div className="brand footer-brand">
             <span className="ml-2 brand-name">
-              <span className="brand-name__first">TheForecast</span>
-              <span className="brand-name__second">Labs</span>
+              <span className="brand-name__first">Ramified</span>
+              <span className="brand-name__second">AI</span>
             </span>
           </div>
           <ul className="footer-links list-reset">
@@ -28,8 +28,8 @@ const Footer = () => {
           <div className="footer-copyright">
             © 2024
             <span className="ml-2 brand-name">
-              <span className="brand-name__first">TheForecast</span>
-              <span className="brand-name__second">Labs</span>{" "}
+              <span className="brand-name__first">Ramified</span>
+              <span className="brand-name__second">AI</span>{" "}
             </span>
             , all rights reserved
           </div>
