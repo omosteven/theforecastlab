@@ -9,7 +9,7 @@ const Footer = () => {
               <span className="brand-name__second">AI</span>
             </span>
           </div>
-          <ul className="footer-links list-reset">
+          {/* <ul className="footer-links list-reset">
             <li>
               <a href="https://c.com">Contact</a>
             </li>
@@ -22,7 +22,7 @@ const Footer = () => {
             <li>
               <a href="https://c.com">Support</a>
             </li>
-          </ul>
+          </ul> */}
           <ul></ul>
 
           <div className="footer-copyright">

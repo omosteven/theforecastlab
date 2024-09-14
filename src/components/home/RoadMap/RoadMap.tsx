@@ -19,33 +19,37 @@ const RoadMap = () => {
           </div>
           <section className="roadmap__map">
             <div className="roadmap__circle">
-              <p>Q2 2024</p>
+              <p>Q3 2024</p>
               <b>Brainstorming</b>
             </div>
             <div className="roadmap__circle-joint"></div>
             <div className="roadmap__circle active">
-              <p>Q3 2024</p>
+              <p>Q4 2024</p>
               <b>Development</b>
             </div>
             <div className="roadmap__circle-joint active"></div>
             <div className="roadmap__circle">
-              <p>Q4 2024</p>
+              <p>Q1 2025</p>
               <b>MVP Testing</b>
             </div>
             <div className="roadmap__circle-joint"></div>
             <div className="roadmap__circle">
-              <p>Q1 2025</p>
+              <p>Q2 2025</p>
               <b>MVP Launch</b>
             </div>
             <div className="roadmap__circle-joint"></div>
             <div className="roadmap__circle">
-              <p>Q2 2025</p>
-              <b>Development</b>
+              <p>Q3 2025</p>
+              <b>Beta Development</b>
             </div>
             <div className="roadmap__circle-joint"></div>
             <div className="roadmap__circle">
-              <p>Q3 2025</p>
+              <p>Q4 2025</p>
               <b>Beta Testing</b>
+            </div>
+            <div className="roadmap__circle">
+              <p>Q1 2026</p>
+              <b>Beta Launch</b>
             </div>
             {/* <div className="roadmap__circle-joint"></div>
             <div className="roadmap__circle">
